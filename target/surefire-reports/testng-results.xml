@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.makaan.qa.testpages.HomePageTest" duration-ms="49855" started-at="2020-07-16T14:15:59Z" finished-at="2020-07-16T14:16:48Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="49855" started-at="2020-07-16T14:15:59Z" finished-at="2020-07-16T14:16:48Z">
+      <class name="com.makaan.qa.testpages.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="setup" is-config="true" duration-ms="9351" started-at="2020-07-16T19:45:59Z" finished-at="2020-07-16T19:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifylogo()[pri:1, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="verifylogo" duration-ms="318" started-at="2020-07-16T19:46:08Z" finished-at="2020-07-16T19:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="teardown" is-config="true" duration-ms="890" started-at="2020-07-16T19:46:08Z" finished-at="2020-07-16T19:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="setup" is-config="true" duration-ms="11519" started-at="2020-07-16T19:46:09Z" finished-at="2020-07-16T19:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifylist()[pri:2, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="verifylist" duration-ms="1727" started-at="2020-07-16T19:46:21Z" finished-at="2020-07-16T19:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylist -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="teardown" is-config="true" duration-ms="807" started-at="2020-07-16T19:46:22Z" finished-at="2020-07-16T19:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="setup" is-config="true" duration-ms="7013" started-at="2020-07-16T19:46:23Z" finished-at="2020-07-16T19:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_buy_gettext()[pri:3, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="verify_buy_gettext" duration-ms="114" started-at="2020-07-16T19:46:30Z" finished-at="2020-07-16T19:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_buy_gettext -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="teardown" is-config="true" duration-ms="729" started-at="2020-07-16T19:46:30Z" finished-at="2020-07-16T19:46:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="setup" is-config="true" duration-ms="6442" started-at="2020-07-16T19:46:31Z" finished-at="2020-07-16T19:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_rent_gettext()[pri:4, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="verify_rent_gettext" duration-ms="1282" started-at="2020-07-16T19:46:38Z" finished-at="2020-07-16T19:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_rent_gettext -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="teardown" is-config="true" duration-ms="775" started-at="2020-07-16T19:46:39Z" finished-at="2020-07-16T19:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="setup" is-config="true" duration-ms="6607" started-at="2020-07-16T19:46:40Z" finished-at="2020-07-16T19:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_agents_gettext()[pri:5, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="verify_agents_gettext" duration-ms="1078" started-at="2020-07-16T19:46:46Z" finished-at="2020-07-16T19:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_agents_gettext -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.makaan.qa.testpages.HomePageTest@15975490]" name="teardown" is-config="true" duration-ms="1167" started-at="2020-07-16T19:46:47Z" finished-at="2020-07-16T19:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.makaan.qa.testpages.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.makaan.qa.testpages.HomePageTest -->
+</testng-results>

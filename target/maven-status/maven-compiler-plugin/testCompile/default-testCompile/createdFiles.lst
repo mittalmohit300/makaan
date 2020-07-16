@@ -1,0 +1,6 @@
+com\makaan\qa\testpages\HomePageTest.class
+com\makaan\qa\testpages\ForgotTestPage.class
+com\makaan\qa\testpages\GetAppLinkTestPage.class
+com\makaan\qa\testpages\LogoutTestPage.class
+com\makaan\qa\testpages\LoginTestPage.class
+com\makaan\qa\testpages\HomeLoanTestPage.class
