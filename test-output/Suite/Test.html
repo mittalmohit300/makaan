@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 15 13:25:35 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>149 seconds (149929 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.makaan.qa.testpages.HomePageTest.verify_agents_gettext()'><b>verify_agents_gettext</b><br>Test class: com.makaan.qa.testpages.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.makaan.qa.testpages.HomePageTest@754ba872</td></tr>
+<tr>
+<td title='com.makaan.qa.testpages.GetAppLinkTestPage.verify_app_store_link()'><b>verify_app_store_link</b><br>Test class: com.makaan.qa.testpages.GetAppLinkTestPage</td>
+<td></td>
+<td>13</td>
+<td>com.makaan.qa.testpages.GetAppLinkTestPage@4dfa3a9d</td></tr>
+<tr>
+<td title='com.makaan.qa.testpages.HomePageTest.verify_buy_gettext()'><b>verify_buy_gettext</b><br>Test class: com.makaan.qa.testpages.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.makaan.qa.testpages.HomePageTest@754ba872</td></tr>
+<tr>
+<td title='com.makaan.qa.testpages.GetAppLinkTestPage.verify_play_store_link()'><b>verify_play_store_link</b><br>Test class: com.makaan.qa.testpages.GetAppLinkTestPage</td>
+<td></td>
+<td>1</td>
+<td>com.makaan.qa.testpages.GetAppLinkTestPage@4dfa3a9d</td></tr>
+<tr>
+<td title='com.makaan.qa.testpages.HomePageTest.verify_rent_gettext()'><b>verify_rent_gettext</b><br>Test class: com.makaan.qa.testpages.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.makaan.qa.testpages.HomePageTest@754ba872</td></tr>
+<tr>
+<td title='com.makaan.qa.testpages.ForgotTestPage.verify_send_otp()'><b>verify_send_otp</b><br>Test class: com.makaan.qa.testpages.ForgotTestPage</td>
+<td></td>
+<td>5</td>
+<td>com.makaan.qa.testpages.ForgotTestPage@6eebc39e</td></tr>
+<tr>
+<td title='com.makaan.qa.testpages.ForgotTestPage.verifyforgotpasswrod()'><b>verifyforgotpasswrod</b><br>Test class: com.makaan.qa.testpages.ForgotTestPage</td>
+<td></td>
+<td>3</td>
+<td>com.makaan.qa.testpages.ForgotTestPage@6eebc39e</td></tr>
+<tr>
+<td title='com.makaan.qa.testpages.HomePageTest.verifylist()'><b>verifylist</b><br>Test class: com.makaan.qa.testpages.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.makaan.qa.testpages.HomePageTest@754ba872</td></tr>
+<tr>
+<td title='com.makaan.qa.testpages.LoginTestPage.verifylogin()'><b>verifylogin</b><br>Test class: com.makaan.qa.testpages.LoginTestPage</td>
+<td></td>
+<td>3</td>
+<td>com.makaan.qa.testpages.LoginTestPage@146ba0ac</td></tr>
+<tr>
+<td title='com.makaan.qa.testpages.HomePageTest.verifylogo()'><b>verifylogo</b><br>Test class: com.makaan.qa.testpages.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.makaan.qa.testpages.HomePageTest@754ba872</td></tr>
+<tr>
+<td title='com.makaan.qa.testpages.GetAppLinkTestPage.verifymobilenumber()'><b>verifymobilenumber</b><br>Test class: com.makaan.qa.testpages.GetAppLinkTestPage</td>
+<td></td>
+<td>1</td>
+<td>com.makaan.qa.testpages.GetAppLinkTestPage@4dfa3a9d</td></tr>
+<tr>
+<td title='com.makaan.qa.testpages.LoginTestPage.verifytitle()'><b>verifytitle</b><br>Test class: com.makaan.qa.testpages.LoginTestPage</td>
+<td></td>
+<td>0</td>
+<td>com.makaan.qa.testpages.LoginTestPage@146ba0ac</td></tr>
+</table><p>
+</body>
+</html>

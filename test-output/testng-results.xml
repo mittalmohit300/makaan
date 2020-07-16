@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17518" started-at="2020-07-16T11:15:27Z" finished-at="2020-07-16T11:15:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17518" started-at="2020-07-16T11:15:27Z" finished-at="2020-07-16T11:15:45Z">
+      <class name="com.makaan.qa.testpages.LogoutTestPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.makaan.qa.testpages.LogoutTestPage@4667ae56]" name="setup" is-config="true" duration-ms="10687" started-at="2020-07-16T16:45:27Z" finished-at="2020-07-16T16:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifylogout()[pri:1, instance:com.makaan.qa.testpages.LogoutTestPage@4667ae56]" name="verifylogout" duration-ms="5930" started-at="2020-07-16T16:45:38Z" finished-at="2020-07-16T16:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.makaan.qa.testpages.LogoutTestPage@4667ae56]" name="teardown" is-config="true" duration-ms="889" started-at="2020-07-16T16:45:44Z" finished-at="2020-07-16T16:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.makaan.qa.testpages.LogoutTestPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
