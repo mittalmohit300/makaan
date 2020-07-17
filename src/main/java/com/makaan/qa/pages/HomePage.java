@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 import com.makaan.qa.testbase.BaseTest;
 
 public class HomePage extends BaseTest {
@@ -62,6 +63,7 @@ public class HomePage extends BaseTest {
 	public String getext() {
 
 		log.info("This function is to verify buy option");
+		buy_option.click();
 		return buy_option.getAttribute("placeholder");
 	}
 

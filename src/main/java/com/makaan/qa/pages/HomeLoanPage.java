@@ -15,7 +15,7 @@ import com.makaan.qa.testbase.BaseTest;
 public class HomeLoanPage extends BaseTest{
 	
 
-	WebDriverWait wait= new WebDriverWait(driver, 20);
+	WebDriverWait wait= new WebDriverWait(driver, 40);
 	private static Logger log= LogManager.getLogger(HomeLoanPage.class);
 	
 	@FindBy(xpath="(//li[@class='home-loan ']//a/span)[2]")
@@ -36,8 +36,8 @@ public class HomeLoanPage extends BaseTest{
 	@FindBy(xpath="//span[@class='js-emi val']")
 	WebElement emi_value;
 
-	@FindBy(xpath="//input[@id='emi_interest']/../span]")
-	WebElement percent;
+	/*@FindBy(xpath="//input[@id='emi_interest']/../span]")
+	WebElement percent;*/
 
 	public HomeLoanPage() {
 		PageFactory.initElements(driver, this);
@@ -47,6 +47,7 @@ public class HomeLoanPage extends BaseTest{
 	public void get_home_loan() {
 		log.info("Makaan Home Loan");
 		
+		driver.navigate().refresh();
 		wait.until(ExpectedConditions.elementToBeClickable(home_loan_buton));		
 		
 		JavascriptExecutor executor = (JavascriptExecutor)driver;
@@ -70,25 +71,22 @@ public class HomeLoanPage extends BaseTest{
 	
 	public void loan_amount(String LOAN_AMOUNT, String TENURE, String RATE_OF_INTEREST) {
 		
-		
+		loan_amount.clear();
 		loan_amount.sendKeys(LOAN_AMOUNT);
 		System.out.println(LOAN_AMOUNT);
 		
-		
-		WebDriverWait wait1= new WebDriverWait(driver, 20);
-		wait1.until(ExpectedConditions.visibilityOfElementLocated(By.id("emi_tenure")));
-		//emi_tenure.clear();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("emi_tenure")));
+		emi_tenure.clear();
 		emi_tenure.sendKeys(TENURE);
 		System.out.println(TENURE);
 		
 		
-		WebDriverWait wait2= new WebDriverWait(driver, 20);
-		wait2.until(ExpectedConditions.visibilityOfElementLocated(By.id("emi_interest")));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("emi_interest")));
 		
-		//emi_interest.clear();
+		emi_interest.clear();
 		emi_interest.sendKeys(RATE_OF_INTEREST);
 		System.out.println(RATE_OF_INTEREST);
-		percent.click();
+		
 		/*JavascriptExecutor executor = (JavascriptExecutor)driver;
 		executor.executeScript("arguments[0].click();", emi_interest);*/
 		
@@ -102,7 +100,7 @@ public class HomeLoanPage extends BaseTest{
 		if (str.equals("43.39"))
 		{
 
-			percent.click();
+			emi_value.click();
 		}
 		
 		 System.out.println(emi_value.getText());

@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 225.968 s <<< FAILURE! - in TestSuite
+com.makaan.qa.testpages.HomePageTest.verify_buy_gettext  Time elapsed: 20.501 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for text ('pick location, builder or project') to be present in element [[ChromeDriver: chrome on XP (50b788335a99724d24f0a422d802ee05)] -> xpath: (//input[@class='js-input thinput'])[2]] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JFSF16135683', ip: '172.20.17.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\MOHITM~1.COG\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 84.0.4147.89, webStorageEnabled: true}
+Session ID: 50b788335a99724d24f0a422d802ee05
+	at com.makaan.qa.testpages.HomePageTest.verify_buy_gettext(HomePageTest.java:40)
+

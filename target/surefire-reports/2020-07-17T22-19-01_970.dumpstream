@@ -1,0 +1,4 @@
+# Created at 2020-07-17T22:19:03.246
+Boot Manifest-JAR contains absolute paths in classpath 'D:\D Drive\Mohit\WorkSpace_Mohit\MakaanQaAutomation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

@@ -36,31 +36,29 @@ public class HomePageTest extends BaseTest {
 	}
 
 	@Test(priority = 3)
-	public void verify_buy_gettext() {
-		String actualtext = homepage_obj.getext();
-		System.out.println(actualtext);
-		String expectedtext = "pick location, builder or project";
-		Assert.assertEquals(actualtext, expectedtext);
-		
-
-	}
-
-	@Test(priority = 4)
 	public void verify_rent_gettext() {
 		String actualtext1 = homepage_obj.rentgetext();
 		System.out.println(actualtext1);
 		String expectedtext1 = "pick location or project";
 		Assert.assertEquals(actualtext1, expectedtext1);
-		
 	}
- 
+
+	@Test(priority = 4)
+	public void verify_buy_gettext() {
+		String actualtext = homepage_obj.getext();
+		System.out.println(actualtext);
+		String expectedtext = "pick location, builder or project";
+		Assert.assertEquals(actualtext, expectedtext);
+
+	}
+
 	@Test(priority = 5)
 	public void verify_agents_gettext() {
 		String actualtext2 = homepage_obj.agentsgetext();
 		System.out.println(actualtext2);
 		String expectedtext2 = "search by location, project or landmark";
 		Assert.assertEquals(actualtext2, expectedtext2);
-		
+
 	}
 
 	@AfterMethod
